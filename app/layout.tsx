@@ -1,5 +1,15 @@
 import '@/app/ui/global.css';
 import { inter } from '@/app/ui/fonts';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: {
+    template: '%s | by Thib',
+    default: 'Facturation by Thib',
+  },
+  description: 'WTF THIB',
+  metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
+}
 
 export default function RootLayout({
   children,
