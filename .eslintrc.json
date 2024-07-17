@@ -1,28 +1,18 @@
 {
-<<<<<<< HEAD
-    "extends": ["next", "next/core-web-vitals"],
-    "parser": "@typescript-eslint/parser",
-    "parserOptions": {
-      "ecmaFeatures": {
-        "jsx": true
-      },
-      "ecmaVersion": 2022,
-      "sourceType": "module"
+  "extends": ["next", "next/core-web-vitals"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
     },
-    "plugins": ["@typescript-eslint"],
-    "rules": {
-      "react/react-in-jsx-scope": "off",
-      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
-      "no-unused-vars": "off",
-      "@typescript-eslint/no-unused-vars": ["error"]
-    }
+    "ecmaVersion": 2022,
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": ["error"]
   }
-  
-=======
-  "extends": [
-    "next",
-    "next/core-web-vitals",
-    "next/typescript"
-  ]
 }
->>>>>>> 0d2e4cfad8cf9c3070b143db06637b5ce67c0254
