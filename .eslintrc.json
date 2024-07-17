@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "extends": ["next", "next/core-web-vitals"],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -17,3 +18,11 @@
     }
   }
   
+=======
+  "extends": [
+    "next",
+    "next/core-web-vitals",
+    "next/typescript"
+  ]
+}
+>>>>>>> 0d2e4cfad8cf9c3070b143db06637b5ce67c0254
